@@ -1,3 +1,9 @@
+import Card from "@/components/card";
+import Link from "next/link";
+
 export default function NotificationsPage(){
-    return <h1>naren notification</h1>
+    return <Card>
+        <div>Notification</div>
+        <Link href='/complexDashboard/archived'>Archived</Link>
+    </Card>
 }
